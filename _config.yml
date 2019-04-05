@@ -45,6 +45,8 @@ plugins:
 navbar:
   - slug : about
     title: About
+  - slug : books
+    title: Books
   - slug : blog
     title: Blog
 
