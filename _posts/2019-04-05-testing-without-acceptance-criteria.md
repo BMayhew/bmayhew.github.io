@@ -9,10 +9,7 @@ keywords: "testing, software testing, quality assurance, QA, acceptance criteria
 # Title
 Have you ever been in a situation where you were requested to test a feature that didn't have acceptance criteria? Is it possible to even test a feature that doesn't have clear requirments? 
 
-Recently in our testing team slack channel I challenged our test team with this:
-<br>
-
-Find the bug in this image: Once you find it add a 🐛 reaction
+Recently in our testing team slack channel I challenged our test team with this: Find the bug in this image: Once you find it add a 🐛 reaction
 ![removing-slack-link-preview](/assets/images/2019-04/quality_starts_with_you.png)
 
 <br>
@@ -65,6 +62,9 @@ The conversation continued into:
 One thing to point out from this conversation, and team interaction is it is totally possible to test without acceptance criteria. Though testing without clear requirements, it is easy for things to get way more subjective, and you may spend some time working with your team trying to convince them that aliens do work at brake factories.
 <p>
 </details>
+<br>
+
+In today's agile world where we value face to face communication over written documentation, there are times where a conversation between a developer and product manager could have happed without a tester being present or a conversation in slack goes down with the whole team and no one takes it on themselves to update the User Story. When this happens the software tester doesn't have to be stuck. There is lots of explatory testing that can be done, and conversations can be had with product owners and developers to help guide and priorize the test efforts.  
 
 
 
