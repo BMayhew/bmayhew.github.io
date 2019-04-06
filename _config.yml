@@ -19,7 +19,7 @@ linkedin_username : butchmayhew
 
 # Build settings
 permalink   : /:year/:title/
-markdown    : kramdown
+markdown    : CommonMarkGhPages
 highlighter : rouge
 
 source      : ./
