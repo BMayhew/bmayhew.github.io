@@ -6,7 +6,6 @@ comments: true
 keywords: "testing, software testing, quality assurance, QA, acceptance criteria, agile testing, agile team, exploratory testing"
 ---
 
-# Title
 Have you ever been in a situation where you were requested to test a feature that didn't have acceptance criteria? Is it possible to even test a feature that doesn't have clear requirments? 
 
 Recently in our testing team slack channel I challenged our test team with this: Find the bug in this image: Once you find it add a 🐛 reaction
