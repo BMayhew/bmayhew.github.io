@@ -1,0 +1,232 @@
+<section id="basics">
+  <div id="contacts">
+    <h3 class="underlined">{{summary}}</h3>
+    <div class="row">
+      {% if resume.basics.website %}
+        <div class="website">
+          <strong>Website</strong>
+          <a href="{{resume.basics.website}}">{{resume.basics.website}}</a>
+        </div>
+      {% endif %}
+      {% if resume.basics.phone %}
+        <div class="phone">
+          <strong>Phone</strong>
+          {{resume.basics.phone}}
+        </div>
+      {% endif %}
+      {% if resume.basics.email %}
+        <div class="email">
+          <strong>Email</strong>
+          <a href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+  {% if resume.basics.summary %}
+    <div id="summary">
+      <p>{{resume.basics.summary}}</p>
+    </div>
+  {% endif %}
+  
+  <!-- {% if resume.basics.profiles != empty %}
+    <section id="profiles">
+      <div class="row">
+        {% for profile in resume.basics.profiles %}
+          <div class="col-sm-4">
+            {% if profile.network %}
+              <strong class="network">
+                {{profile.network}}:
+              </strong>
+            {% endif %}
+            {% if profile.url %}
+              <a href="{{profile.url}}">
+                {% if profile.username %}
+                  {{profile.username}}
+                {% else %}
+                  {{profile.url}}
+                {% endif %}
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</section> -->
+
+{% if resume.work != empty %}
+  <section id="work">
+    <h3 class="underlined">Work</h3>
+    {% for work in resume.work %}
+    <div class="entry">
+      {% if work.company %}
+      <section id="{{work.company}}">
+        <h4 class="title">
+          {{work.company}}
+          <span class="date">
+            {% if work.startDate %}
+            <span class="start-date">
+              {{work.startDate}} -
+            </span>
+            {% endif %}
+            {% if work.endDate %}
+            <span class="end-date">
+              {{work.endDate}}
+            </span>
+            {% endif %}
+          </span>
+        </h4>
+      </section>
+      {% endif %}
+
+      {% if website %}
+      <div class="website">
+        <a href="{{work.website}}">{{work.website}}</a>
+      </div>
+      {% endif %}
+
+      {% if work.position %}
+      <div class="subtitle">
+        {{work.position}}
+      </div>
+      {% endif %}
+
+      {% if work.summary %}
+      <div class="summary">
+        <p>{{work.summary}}</p>
+      </div>
+      {% endif %}
+
+      {% if work.highlights != empty %}
+      <ul class="highlights">
+        {% for highlight in work.highlights %}
+        <li>{{highlight}}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if resume.volunteer != empty %}
+  <section id="volunteer">
+    <h3 class="underlined">Volunteer</h3>
+    {% for volunteer in resume.volunteer %}
+    <div class="entry">
+      {% if volunteer.organization %}
+      <section id="{{volunteer.organization}}">
+        <div class="title">
+          <h4> {{volunteer.organization}}
+          <span class="date">
+            {% if volunteer.startDate %}
+            <span class="start-date">
+              {{volunteer.startDate}} -
+            </span>
+            {% endif %}
+            {% if volunteer.endDate %}
+            <span class="end-date">
+              {{volunteer.endDate}}
+            </span>
+            {% endif %}
+          </span>
+        </h4>
+      {% endif %}
+
+      {% if volunteer.website %}
+      <div class="website">
+        <a href="{{volunteer.website}}">{{volunteer.website}}</a>
+      </div>
+      {% endif %}
+
+      {% if volunteer.position %}
+      <div class="subtitle">
+        {{volunteer.position}}
+      </div>
+      {% endif %}
+
+      {% if volunteer.summary %}
+      <div class="summary">
+        <p>{{volunteer.summary}}</p>
+      </div>
+      {% endif %}
+
+      {% if volunteer.highlights != empty %}
+      <ul class="highlights">
+        {% for highlight in volunteer.highlights %}
+        <li>{{highlight}}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if resume.education != empty %}
+  <section id="education">
+    <h3 class="underlined">Education</h3>
+    {% for education in resume.education %}
+    <div class="entry">
+      {% if education.institution %}
+      <section id="{{education.institution}}">
+        <div class="title">
+          <h4> {{education.institution}}
+            <span class="date">
+              {% if education.startDate %}
+              <span class="start-date">
+                {{education.startDate}} -
+              </span>
+              {% endif %}
+              {% if education.endDate %}
+              <span class="end-date">
+                {{education.endDate}}
+              </span>
+              {% endif %}
+            </span>
+          </h4>
+        </div>
+      </section>
+      {% endif %}
+
+      {% if education.area %}
+      <div class="subtitle">
+        {% if education.studyType %}
+        {{education.studyType}},
+        {% endif %}
+        {{education.area}}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% if resume.skills != empty %}
+  <section id="skills">
+    <h3 class="underlined">Skills</h3>
+    <div class="row">
+      {% for skill in resume.skills %}
+      <div class="skill col-sm-4">
+        {% if skill.name %}
+        <div class="name">
+          <strong> {{skill.name}} </strong>
+        </div>
+        {% endif %}
+        {% if skill.level %}
+        <div class="level">
+          <em>{{skill.level}}</em>
+        </div>
+        {% endif %}
+        {% if skill.keywords %}
+        <ul class="keywords">
+          {% for keyword in skill.keywords %}
+          <li>{{keyword}}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

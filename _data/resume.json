@@ -1,0 +1,207 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "projects": "Projects",
+    "awards": "Awards",
+    "education": "Education",
+    "work": "Work Experience",
+    "skills": "Skills"
+  },
+  "basics": {
+    "name": "Butch Mayhew",
+    "email": "utchbe@gmail.com",
+    "location": {
+      "address": "Birmingham, AL"
+    },
+    "phone": "(205) 413-6785",
+    "website": "https://bmayhew.github.io/",
+    "summary": "Seeking ways to execute on my personal leadership philosophy: To grow, inspire, and serve my team while seeking and implementing ways to push the business forward.",
+  "profiles": [
+    {
+      "network": "LinkedIn",
+      "username": "butchmayhew",
+      "url": "https://www.linkedin.com/in/butchmayhew/"
+    },
+    {
+      "network": "GitHub",
+      "username": "bmayhew",
+      "url": "https://github.com/BMayhew"
+    },
+    {
+      "network": "Twitter",
+      "username": "butchmayhew",
+      "url": "https://twitter.com/butchmayhew"
+    }
+  ]
+},
+  "education": [
+    {
+      "institution": "Auburn University",
+      "location": "Auburn, AL",
+      "studyType": "Bachelor",
+      "startDate": "2001",
+      "endDate": "2005",
+      "area": "Liberal Arts"
+    }
+  ],
+  "work": [
+    {
+      "position": "Engineering Manager",
+      "website": "http://www.daxko.com/",
+      "highlights": [
+        "Hiring, growing, and leading Software Engineers and Tester Engineers across multiple project teams",
+        "Serving as a technical lead working with product managers when scoping out the details of new product features",
+        "Work with product team to establish realistic delivery dates and project milestones",
+        "Influencing and Establishing healthy culture around: agile practices, high quality software, and teamwork",
+        "Leading remote teams both in the US and offshore.",
+        "Building a team to build a product that will integrate with two of our flag ship projects from scratch."
+      ],
+      "company": "Daxko",
+      "location": "Birmingham, AL",
+      "startDate": "February 2019",
+      "endDate": "current"
+    },
+    {
+      "position": "Test Engineering Manager",
+      "website": "http://www.daxko.com/",
+      "highlights": [
+        "Built and implemented a release management process to allow multiple teams to deliver code to production",
+        "Identified risks for upcoming development and infrastructure projects and worked with teams to mitigate as much as possible",
+        "Hired and trained 10 team members in this role across two different products",
+        "Transitioned to a company that we acquired and positively influenced the culture of quality across the development teams",
+        "Successfully implemented a Test Automation strategy and have made significant progress on API and UI frameworks",
+        "Worked with DevOps team to build out our CI/CD pipeline"
+      ],
+      "company": "Daxko",
+      "location": "Birmingham, AL",
+      "startDate": "February 2016",
+      "endDate": "February 2019"
+    },
+    {
+      "position": "Software Test Engineer",
+      "website": "http://www.daxko.com/",
+      "highlights": [
+        "Tested across many different products and product teams.",
+        "Implemented Test Automation Framework Ruby/Watir/Selenium.",
+        "Served as Scrum Master for delivery team.",
+        "Used exploratory testing to find defects in web application.",
+        "Managed code deployment processes."
+      ],
+      "company": "Daxko",
+      "location": "Birmingham, AL",
+      "startDate": "August 2012",
+      "endDate": "February 2016"
+    },
+    {
+      "position": "Manager of Operations",
+      "website": "http://ccscompanies.com/",
+      "highlights": [
+        "Managed inbound call center.",
+        "Negotiated rates with vendors.",
+        "Managed warehouse fulfillment.",
+        "Provided technical training and documentation for team members."
+      ],
+      "company": "Complete Communication Services",
+      "location": "Birmingham, AL",
+      "startDate": "April 2006",
+      "endDate": "August 2012"
+    }
+  ],
+  "volunteer": [
+    {
+      "position": "High School Teacher",
+      "website": "https://www.tealsk12.org/",
+      "organization": "TEALS",
+      "location": "Birmingham, AL",
+      "startDate": "2018",
+      "endDate": "2019",
+      "highlights": [
+        "Co-taught Introduction to Computer Science to High School students",
+        "Prepared lesson plans based on the provided curriculum",
+        "Graded students projects and provided helpful to the students"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Test Automation",
+        "API Testing",
+        "Performance Testing",
+        "Security Testing",
+        "Exploratory Testing",
+        "Software Testing",
+        "Quality Assurance",
+        "DevOps",
+        "Continuous Integration",
+        "Amazon Web Services (AWS)"
+      ],
+      "name": "Technical Skills"
+    },
+    {
+      "keywords": [
+        "Postman",
+        "Charles Proxy",
+        "NeoLoad",
+        "JMeter",
+        "Github",
+        "Jenkins",
+        "OWASP ZAP",
+        "BurpSuite"
+      ],
+      "name": "Software"
+    },
+    {
+      "keywords": [
+        "Context Driven Testing",
+        "Modern Testing",
+        "Agile Testing",
+        "Servant Leadership",
+        "Agile",
+        "Scrum",
+        "Kanban"
+      ],
+      "name": "Methodologies"
+    },
+    {
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SQL",
+        "Ruby"
+      ],
+      "name": "Programing Languages"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Built Candidate Homework to assess a testers technical skills.",
+      "keywords": [
+        ""
+      ],
+      "name": "New Test Engineer Candidate Homework"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Daxko's Achievers Club",
+      "date": "December 2014",
+      "awarder": "Jason Benton (QA Team Lead)"
+    },
+    {
+      "title": "Quarterly 'Own it Like a Roman'",
+      "date": "Q2 2015 | Q4 2016",
+      "awarder": "Matt Cowell"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

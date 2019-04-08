@@ -8,6 +8,7 @@ permalink: /books/
 - [Explore It!](https://amzn.to/2IdSAa1) 
 - [Lessons Learned in Software Testing](https://amzn.to/2VmrmSw)
 - [Agile Testing](https://amzn.to/2TToon3)
+- [Continuous Testing for DevOps Professionals](https://amzn.to/2D5qXge)
 
 ## Leadership
 - [Multipliers: How the Best Leaders Make Everyone Smarter](https://amzn.to/2I1af5u)
@@ -27,3 +28,5 @@ permalink: /books/
 
 ## Fiction
 - [The Fronteirs Saga - available on Hoopla](http://www.frontierssaga.com/episodes/)
+-  [The Wingfeather Saga](https://www.andrew-peterson.com/wingfeather-saga)
+- [Lord of the Rings](https://amzn.to/2UEpgAa)
