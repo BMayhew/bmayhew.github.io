@@ -267,7 +267,6 @@ hr {
 
 .col-sm-4 {
   float: left;
-  width: 33.33%;
 }
 
 /* Clear floats after the columns */
@@ -347,7 +346,15 @@ hr {
     margin-top: 2px;
     margin-right: 1em;
   }
-
+  .nav {display: inline-block;}
+  .navbar {float: none;}
+  .navbar li {
+    display: block;
+    margin: auto;
+    font-size: rem(20);
+}
+  
+  
   .post-item {
     border: 1px solid lighten($light-gray-color, 10%);
     padding: 0 0.5em;
