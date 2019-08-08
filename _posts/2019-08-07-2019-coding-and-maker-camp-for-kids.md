@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "2019 Coding and Maker Camp For Kids"
-description: "This year I have decided to run a Coding and Maker Camp for kids. This is a huge experiment, that I am super excited to run. I've got 9 students attending a 16 week Maker and Coding camp where the students will learn about design thinking, coding, and microcontrollers."
+title: "2019 Maker and Coding Camp For Kids"
+description: "This year I have decided to run a Maker and encoding Camp for kids. This is a huge experiment, that I am super excited to run. I've got 9 students attending a 16 week Maker and Coding camp where the students will learn about design thinking, coding, and microcontrollers."
 comments: true
 keywords: "kids, coding camp, coding, STEM, STEAM, education, homeschool, microbit, learning"
 ---
@@ -10,9 +10,9 @@ keywords: "kids, coding camp, coding, STEM, STEAM, education, homeschool, microb
 
 <br>
 
-This year I have decided to run a Coding and Maker Camp for kids. This is a huge experiment, that I am super exicted to run. I've got 9 students attending a 16 week course where students will be learning about design thinking, coding, and microcontrollers. 
+This year I have decided to run a Maker and Coding Camp for kids. This is a huge experiment, that I am super exicted to run. I've got 9 students attending a 16 week course where students will be learning about design thinking, coding, and microcontrollers. 
 
-This is the [Curriculum](https://makecode.microbit.org/courses/csintro) we will be following.
+This is what I'll be using as a[Curriculum](https://makecode.microbit.org/courses/csintro) 
 
 The parts are in which include:
 * [1 Microbit Go Bundle](https://www.adafruit.com/product/3362)
@@ -22,9 +22,6 @@ The parts are in which include:
 * [3.5 Audio Jack to Alligator Clip Cable](https://www.adafruit.com/product/4182)
 * [Photo Boxes for Storage](https://amzn.to/2YzR9fF)
 
-Below are the boxes assembled and ready for the first day of camp. 
-
+<br> 
+Parts assymbled and ready for use!
 ![microbit](/assets/images/2019-08/microbit-kit.JPG)
-
-
-
