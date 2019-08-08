@@ -12,7 +12,7 @@ keywords: "kids, coding camp, coding, STEM, STEAM, education, homeschool, microb
 
 This year I have decided to run a Maker and Coding Camp for kids. This is a huge experiment, that I am super exicted to run. I've got 9 students attending a 16 week course where students will be learning about design thinking, coding, and microcontrollers. 
 
-This is what I'll be using as a[Curriculum](https://makecode.microbit.org/courses/csintro) 
+This is what I'll be using as a [Curriculum](https://makecode.microbit.org/courses/csintro) 
 
 The parts are in which include:
 * [1 Microbit Go Bundle](https://www.adafruit.com/product/3362)
