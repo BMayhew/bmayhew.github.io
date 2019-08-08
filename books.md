@@ -5,8 +5,13 @@ permalink: /books/
 ---
 
 ## Software Development
-- [The Pragmatic Programmer](https://amzn.to/2Ffw6n0)
+- [The Effective Engineer](https://amzn.to/2UQaLFx)
+- [The Pragmatic Programmer](https://amzn.to/2VwJKLT)
+- [Soft Skills: The software developer's life manual](https://amzn.to/2XZYujT)
+- [Javascript Grammar](https://amzn.to/2Y0VpQH)
 - [Accelerate: The Science of Lean Software and DevOps](https://amzn.to/2MLi8z9)
+
+
 
 ## Software Testing
 - [Explore It!](https://amzn.to/2IdSAa1) 
