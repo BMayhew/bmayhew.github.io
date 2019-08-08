@@ -24,4 +24,5 @@ The parts are in which include:
 
 <br> 
 Parts assymbled and ready for use.
+
 ![microbit](/assets/images/2019-08/microbit-kit.jpg)
