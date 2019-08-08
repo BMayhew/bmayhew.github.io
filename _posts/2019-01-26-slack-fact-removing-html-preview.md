@@ -4,6 +4,8 @@ title: "#SlackFact How to Remove the Link Previews in Slack Messages"
 description: "Do you ever ask the question why this message shows up when a link is posted.... If you posted this in slack look for the 'X' at the top left of the link."
 comments: true
 keywords: "slack, slackfact, tips"
+img: https://bmayhew.github.io/assets/images/2019-08/microbit-kit-1.jpg
+
 ---
 
 # Have you ever been annoyed at the way slack renders links by default?
