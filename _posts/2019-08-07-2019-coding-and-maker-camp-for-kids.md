@@ -23,5 +23,5 @@ The parts are in which include:
 * [Photo Boxes for Storage](https://amzn.to/2YzR9fF)
 
 <br> 
-Parts assymbled and ready for use!
+Parts assymbled and ready for use.
 ![microbit](/assets/images/2019-08/microbit-kit.JPG)
