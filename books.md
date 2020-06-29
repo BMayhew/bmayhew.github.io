@@ -18,7 +18,7 @@ permalink: /books/
 
 ## Software Testing
 
-- [Explore It!](https://amzn.to/2IdSAa1) 
+- [Explore It!](https://amzn.to/2IdSAa1)
 - [Lessons Learned in Software Testing](https://amzn.to/2VmrmSw)
 - [Agile Testing](https://amzn.to/2TToon3)
 - [Continuous Testing for DevOps Professionals](https://amzn.to/2D5qXge)
@@ -26,7 +26,6 @@ permalink: /books/
 - [Leading Quality: How Great Leaders Deliver High-Quality Software and Accelerate Growth](https://amzn.to/3gaRXvL)
 - [Perfect Software And Other Illusions About Testing](https://amzn.to/3eKPHeq)
 - [Quality Software Management: Systems Thinking](https://amzn.to/3dID8z4)
-
 
 ## Leadership
 
@@ -68,7 +67,7 @@ permalink: /books/
 
 ## Fiction
 
-- [The Fronteirs Saga - available on Hoopla](http://www.frontierssaga.com/episodes/)
+- [The Frontiers Saga - available on Hoopla](http://www.frontierssaga.com/episodes/)
 - [The Wingfeather Saga](https://www.andrew-peterson.com/wingfeather-saga)
 - [Lord of the Rings](https://amzn.to/2UEpgAa)
 - [The Martian](https://amzn.to/2MPXL3U)
