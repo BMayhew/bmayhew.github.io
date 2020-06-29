@@ -46,6 +46,23 @@
   ],
   "work": [
     {
+      "position": "Director of Software Test",
+      "website": "http://www.daxko.com/",
+      "highlights": [
+        "Hiring, growing, and leading Test Engineers, Test Managers, and Software Engineers in Test across multiple products",
+        "Building and growing an engineering culture that cares about quality",
+        "Identified and built out standard metrics around release quality, customer reported defects, and test automation",
+        "Building strategies around what and how to add test automation to our flagship products.",
+        "Involved in designing and building out our CI/CD pipelines",
+        "Influencing and Establishing healthy culture around: agile practices, high quality software, and teamwork",
+        "Leading remote teams both in the US and offshore."
+      ],
+      "company": "Daxko",
+      "location": "Birmingham, AL",
+      "startDate": "February 2019",
+      "endDate": "November 2019"
+    },
+    {
       "position": "Engineering Manager",
       "website": "http://www.daxko.com/",
       "highlights": [
@@ -54,7 +71,7 @@
         "Work with product team to establish realistic delivery dates and project milestones",
         "Influencing and Establishing healthy culture around: agile practices, high quality software, and teamwork",
         "Leading remote teams both in the US and offshore.",
-        "Building a team to build a product that will integrate with two of our flag ship projects from scratch."
+        "Hired UI Software Engineers to build React front ends to our applications"
       ],
       "company": "Daxko",
       "location": "Birmingham, AL",
@@ -159,7 +176,9 @@
         "Servant Leadership",
         "Agile",
         "Scrum",
-        "Kanban"
+        "Kanban",
+        "Quality Coach",
+        "Mentor"
       ],
       "name": "Methodologies"
     },
@@ -169,7 +188,8 @@
         "HTML",
         "CSS",
         "SQL",
-        "Ruby"
+        "Ruby",
+        "Python"
       ],
       "name": "Programing Languages"
     }
