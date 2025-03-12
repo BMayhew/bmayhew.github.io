@@ -1,0 +1,434 @@
+[
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "New Merchant Boarding API",
+    "content": "We’ve introduced a new Merchant Onboarding API (v1/onboarding), designed to simplify and streamline merchant application submissions.\n\n**Key Benefits:**\n\n*   Fully compatible with our hosted merchant application\n*   Supports all current and future processors, including Paysafe, TSYS, and North\n*   Accepts digital signatures directly via API\n\nThis new endpoint allows for faster integration and ensures future-proof compatibility as we expand our processor options.\n\n[Learn more about merchant boarding >](https://docs.tilled.com/api-reference#tag/onboarding)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Added support for custom table columns in the Payouts page",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Updated the Canadian version of our hosted merchant application to use Canada-specific verbiage.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "In-line application feedback enhancements",
+    "content": "We’ve introduced new in-line feedback mechanisms to improve the quality of merchant application data:\n\n*   **Middesk integration (in beta):** Automatically verifies the merchant's Legal Business Name, Tax ID, and Business Type during the application process.\n*   **Upfront document requests (in beta):** Dynamically requests processing or bank statements based on processing volumes and prior processing history.\n*   **Real-time validation:** Validates processing volume entries to ensure accuracy and streamline application reviews.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Introduced global search functionality, allowing users to locate key items by unique ID\n*   Renamed the \"Business Representative\" step in the merchant application to \"Application Signer\" for improved clarity regarding application requirements\n*   Updated form design to prevent users from accidentally exiting and losing entered data",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Custom Pricing for In-Person Payments",
+    "content": "Partners can now set different pricing for in-person and online payments with our Paysafe + Handpoint solution in the United States.\n\n[Start processing in-person payments >](https://docs.tilled.com/docs/payments/collect-a-payment/in-person-payments)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Exposed the NACHA return code and AVS address check results in the Payment Details page\n*   Exposed merchant category codes (MCCs) alongside descriptions in the Dashboard and merchant application\n*   Exposed processing details for TSYS merchants, including funding holds and billing & payout schedules\n*   Updated the Order Terminals link in Sandbox to route to the developer store\n*   Updated the Manual Payment form for in-person payments with dynamic functionality and tooltips for improved usability",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Merchant Application v2",
+    "content": "The redesigned merchant application offers a simplified question flow to deliver a faster, more intuitive onboarding experience for merchants.\n\n*   **New welcome screen:** Merchants now see all the information they need, including time estimates and required documents.\n*   **Business-specific flow:** Onboarding steps can be customized by partners to limit merchant’s business type, simplifying navigation and improving relevance.\n*   **Dynamic tooltips and FAQs:** Throughout onboarding, dynamic tooltips and FAQs appear next to each prompt.\n*   **Seamless e-signature integration for TSYS merchants:** Merchants needing a signed agreement can now complete this step within the onboarding flow using DocuSign. This streamlines the compliance and onboarding process by keeping everything in-app.\n\nAs always, the merchant application is white-labeled and optimized for mobile.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Improvements to Payment Failures",
+    "content": "We've made the following improvements to simplify resolving payment declines:\n\n*   **Clearer payment declines:** Added new failure codes and refined failure messages for payment declines\n*   **Clearer ACH returns:** Updated failure codes for ACH returns to directly reflect the underlying NACHA return codes.\n*   **New next steps field:** Added a next\\_steps field to the [Charge model](https://docs.tilled.com/api-reference#model/charge) that provides actionable next steps for payment failures, which can now be easily surfaced in your software\n*   **In-line next steps:** Exposed next steps in-line with the failure reason in the Payment Details page",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Extended dispute management capabilities to merchants processing on TSYS\n*   Updated input validation and added in-line fee descriptions in the Pricing Template form\n*   Redesigned the application progress bar to make tracking progress more intuitive\n*   Enabled multiple filters to be applied at once\n*   Standardized AVS responses across processors, making them easier to compare",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Interactive Launch Checklist",
+    "content": "Our Launch Checklist is now interactive. Developers can now check off tasks as they integrate with Tilled\n\n[Explore the Launch Checklist >](https://docs.tilled.com/docs/get-started/launch-checklist)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Improved how partially authorized payments are displayed in the Dashboard, including a new display status and tailored fields\n*   Added a Welcome step to the merchant application, providing the merchant with an overview of what to expect during the application process\n*   Improved tooltip visibility in the merchant application, making it easier for merchants to see additional helper text related to a field",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "White-Label Capabilities for Resellers",
+    "content": "Resellers can now white-label Tilled, including the:\n\n*   Docs and API Reference [(check out PBJ Pay’s Docs!)](https://pbjpay-docs.staging-paymentsonline.io/)\n*   Partner application\n*   Merchant application\n*   Dashboard\n*   Transactional emails\n\n[Learn more about our reseller offering >](https://www.tilled.com/resellers)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Interchange qualification data can now be accessed through the Dashboard for merchants processing on TSYS\n*   Responses in the [API Reference](https://docs.tilled.com/api-reference) are now clickable to show the schema with clear indication of which fields are required, letting developers quickly know which fields they can expect from our API",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Merchant Application Preferences",
+    "content": "Tailor the hosted merchant application to your software’s vertical by configuring your application preferences. You can limit the range of choices shown to your merchants for certain questions to help them complete their application quickly and accurately.\n\n[Learn how to update application preferences >](https://docs.tilled.com/docs/get-started/merchant-preferences)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Multiple Logos for White-Label",
+    "content": "Tilled now supports light mode and dark mode logos. Light logos will be displayed against dark backgrounds, such as the Dashboard navigation bar.\n\n[Learn how to update brand logos >](https://docs.tilled.com/docs/get-started/white-label#manage-white-label)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Merchants and partners can now attach multiple documents to a single document request, streamlining multiple document uploads\n*   Implemented a new webhook event, payment\\_method.updated, which is triggered each time a card is verified through our Card Account Updater service\n*   Exposed results in the Payment Details page when using the Card Account Updater service\n*   Updated the top bar navigation layout in the hosted merchant application, improving usability and mobile responsiveness",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Dashboard Payment Preferences",
+    "content": "Partners can restrict merchants from collecting payments through the Merchant Dashboard. This functionality is especially useful for partners who rely on platform fees or metadata to track payments, as payments initiated through the Merchant Dashboard can bypass platform fee logic and lack critical metadata, leading to data synchronization issues across systems.\n\n[Learn how to update payment preferences >](https://docs.tilled.com/docs/get-started/merchant-preferences)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Added frontend validation to the bank account field in the merchant application\n*   Linked the Merchant Help Center in the merchant application\n*   Replaced fee type with fee description in the Payout Details page for more granular fee information\n*   Replaced general ‘Adjustment’ term with the specific adjustment description in the Payout Details page\n*   Updated form design pattern\n*   Updated primary button color to improve legibility\n*   Fixed issues with wonky buttons and spacing in the Submit Application step of the merchant app\n*   Fixed issue with misaligned pricing template status chip",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Terminal Management in the Merchant Dashboard",
+    "content": "Merchants approved for card-present processing can now manage their terminals from the Merchant Dashboard to:\n\n*   Update device descriptions\n*   Manage tip and receipt settings\n*   Order terminals",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Moved Terminals page under the “Merchant Management” tab in the Partner Dashboard\n*   Added an Expiration Date column to the Invited Users table so it's more clear when the invite will expire\n*   Added a line to the User Invitation email to explain that user invitations expire after 7 days\n*   Improved the error message to users attempting to accept an expired user invitation to make it more clear and actionable\n*   Fixed a bug that was preventing users from resending expired user invites",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Card Vaulting for In-Person Payments",
+    "content": "Card vaulting allows you to securely attach card-present payment methods to customers for future use.\n\n**How to Vault an In-Person Payment Method**\n\n**1\\. Create a card-present payment method and process an in-person payment:** Start by creating a card\\_present payment method and use it for a card-present transaction.\n\n**2\\. Attach the payment method to a customer:** Once the payment method has been successfully used on a Terminal Reader, it can be attached to a customer's profile. Payment methods must be used within 15 minutes of creation; otherwise, they expire and cannot be attached.\n\n**3\\. Reuse for future transactions:** Vaulted card-present payment methods can be utilized for subsequent transactions by specifying card\\_present as the payment\\_method\\_type in the Payment Intent.\n\n**Important Considerations**\n\n*   **Not compatible with Card Account Updater:** Vaulted card-present payment methods do not support the Card Account Updater service, as raw card details are securely stored at Valor.\n*   **Reporting:** When using a vaulted card-present payment method, transactions will appear as card-present in the Dashboard.\n\nLearn more about how to [Attach a Payment Method to a Customer](https://docs.tilled.com/api/#tag/PaymentMethods/operation/AttachPaymentMethodToCustomer) in our API.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Manage Receipt Printing for In-Person Payments",
+    "content": "Printed receipts can be turned on and off for individual Terminal Readers. By default, all new Terminal Readers will be created with printed receipts turned off. [Learn how to turn on printed receipts >](https://tilledpartners.zendesk.com/hc/en-us/articles/25973755087764-How-to-turn-on-printed-receipts)\n\nWhen printed receipts are enabled, both a merchant and customer copy of the receipt will print from the device.\n\nReceipts settings can also be configured via the [Update a Terminal Reader](https://docs.tilled.com/api/#tag/TerminalReaders/operation/UpdateTerminal) endpoint in our API.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Added helper text for invoice requests to provide the merchant with guidelines about invoice formatting, gave context surrounding the invoice request, and set expectations on the expected timeframe for reviewing uploaded documents\n*   Displayed description of adjustment line items in the Payout Details page\n*   Adjusted the report form height for easier navigating through multiple months\n*   Updated hyperlink text in the White-Label Settings page for clarity\n*   Automatically set file type = logo in the White-Label Settings form",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "On-Device Tipping",
+    "content": "On-device tipping simplifies the tipping process by presenting clear, tip options directly to the customer at the point of sale.\n\nWhen on-device tipping is enabled, the end customer will be prompted to select a tip percentage amount on the device during the checkout flow. Available tipping options include preset percentages of 10%, 15%, 20%, and 25%, along with the flexibility for customers to enter a custom tip amount.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Added 1-click download option to the Payout and Payout Details pages\n*   Exposed fee details for merchants boarded with TSYS\n*   Redesigned fields in the dashboard for improved usability, consistency, and design quality\n*   Added a timezone tooltip across all tables, improving clarity for users operating across different time zones\n*   Added refund reason to Payment Overview card for refunded payments\n*   Fixed issue causing duplicate lost dispute events within the payment timeline\n*   Fixed issue causing payment timeline events to be in reverse order if only two events existed",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Merchant Display Statuses",
+    "content": "We've refreshed the look and functionality of merchant statuses within the Partner Console by introducing new statuses, along with updated colors and icons for a clearer, more intuitive display.\n\n**New Display Statuses**\n\n*   **Partially Active:** Indicates when one processing capability is active while another remains inactive.\n*   **Account Review:** Appears for active merchants who are asked for documents due to a periodic review and don't have a funding hold.\n*   **Funding Hold:** Indicates when there is a funding hold on any capability, with tooltips specifying the affected capability(ies).\n\n**Updated Color Indicators**\n\n*   Red statuses mean that information is requested from the merchant.\n*   Purple statuses signify that additional information has been provided and is under review by Tilled’s Risk and Underwriting teams.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Processing Volume Section in the Hosted Merchant Application",
+    "content": "To improve the underwriting process and enhance risk monitoring, we've updated the Processing Volume section to capture a more detailed view of transaction behaviors through the following changes:\n\n*   Split \"Average Transaction Amount\" into two categories: \"Card\" and \"Bank to Bank\" (Direct Debit), allowing for more reliable risk assessments\n*   Eliminated \"Annual Processing Volume\" and \"Annual Revenue\" questions to streamline the application process\n*   Introduced a new \"Monthly Processing Volume\" to capture more immediate and relevant processing volume data",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Began sending recurring email reminders to merchant users for outstanding document requests\n*   Added a filter to Payouts page to filter by payout id and payout amount\n*   Replaced the payment method text with payment method icons in the Payments table\n*   Exposed merchant name in the Dispute Details page\n*   Optimized merchant application view under Merchant > Merchant App so it adjusts with the screen size\n*   Updated details shown for failed payouts in the Payout Details page\n*   Update payment status chips to include icons\n*   Hid currency in Payments and Outbound Transfers tables if partner or merchant is only configured for one currency\n*   Hid metadata field for report downloads where metadata isn't applicable (Processing Summary, Disputes, Interchange Details)\n*   Fixed issue where Tilled colors would flash before white-label settings showed up on the sign-in screen\n*   Fixed issue where lost disputes may have duplicate events in the payment timeline\n*   Fixed issue where payment timeline events may not be in chronological order if only two events existed (payment intent created and succeeded)\n*   Fixed validation issue for percent-based fields in the New Pricing Template form",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Interchange Report",
+    "content": "The Interchange Report breaks down the interchange attributes for every credit and debit card transaction, including the base interchange cost. The report can be leveraged in multiple ways:\n\n*   **Detailed cost analysis:** It provides a granular view of the fees for each transaction, enabling finance teams to analyze and understand the cost implications of different card types, transaction methods, and merchant categories.\n*   **Merchant pricing optimization:** With insights from the report, you can optimize your merchants pricing to ensure you’re always maintaining profitability.\n\nThe Interchange Report is available in the console and via the [](https://docs.tilled.com/api/#tag/ReportRuns)in the Tilled API. [Learn more about the Interchange Report >](https://tilledpartners.zendesk.com/hc/en-us/articles/23193238850964-Interchange-report)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Document Management for Active Merchants",
+    "content": "Active merchants can upload requested documentation directly in the merchant console. Partners can also upload documentation on behalf of their merchants in the partner console. [Learn more about document management >](https://tilledpartners.zendesk.com/hc/en-us/sections/23161549207828-Document-Management)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Email Notifications for Key Account Changes",
+    "content": "Stay up-to-date with our new automated email notifications for documentation requests, and application approvals or rejections. And as always, white-label settings are respected. [Learn more about email notifications >](https://tilledpartners.zendesk.com/hc/en-us/articles/22752282977556-Types-of-email-notifications)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Introduced a notification center to the Merchant Console to ensure merchants don’t miss important notifications.\n*   Began auto-generating the report name for report downloads.\n*   Exposed the trace number in the Payout Details page.\n*   Fixed a reconciliation issue in the Payout Details page. The actual payout amount was not impacted.\n*   Fixed an issue where new users added to multiple accounts received erroneous 'Register' invitations.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Card-Present",
+    "content": "Card-present has arrived! Now, you can seamlessly handle both card-present and card-not-present payments through a single API integration. With the importance of versatility in mind, we teamed up with Valor PayTech to offer the VL100 and VL110 terminals to your merchants.\n\nJust a heads up - we’re currently in the beta phase, fine-tuning to perfection. Eager to process card-present payments? Check out our [card-present integration guide](https://docs.tilled.com/docs/payments/card-present/) or get in touch with [integrations@tilled.com](mailto:integrations@tilled.com?subject=Hi%2C+I%27m+interested+in+card+present) to get started.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "TSYS as an Alternative Processor",
+    "content": "With a second processor relationship in place, we’re able to offer merchants faster funding, gross settlement, and later batch times, in addition to card-present:\n\n*   **Lightning-fast funding:** With next day funding as the default payout speed, merchants will see funds in their accounts faster, allowing them to reinvest in their business even sooner.\n*   **Streamlined batch times:** Say goodbye to early batch cut-off times and welcome TSYS's batch times of 7:30 PM EST for next day funding and 2:30 AM EST for regular funding.\n*   **Gross settlement:** Tilled with TSYS supports gross settlement. This means less headaches trying to reconcile merchant payouts.\n    \n    [Compare processors >](https://tilledpartners.zendesk.com/hc/en-us/articles/20006498990484-Processor-comparison-for-credit-and-debit-card-payments)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Document Management for Onboarding Merchants",
+    "content": "We’ve made several upgrades to ensure a smoother onboarding experience for your merchants:\n\n*   **Review document requirements:** The [Merchants page](https://app.tilled.com/merchants) in the partner console now clearly indicates which accounts need action. An 'action required' status means documents are needed. A simple click on this status reveals what the Underwriting team has requested, offering you a straightforward view of what each merchant needs to progress in the application process.\n*   **Securely upload documents:** When documents are requested from a merchant, the merchant can log into Tilled and provide the necessary information. Our Underwriting team requests documents only when essential, aiming to better understand and prepare your merchants for successful payment processing with Tilled.\n*   **Customize the document management experience:** For a more integrated approach, utilize our [robust API](https://docs.tilled.com/api/#tag/Documents) and [webhooks](https://docs.tilled.com/api/#tag/WebhookEndpoints) for seamless document management during the merchant onboarding process.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Fixed an issue with timestamp formatting in report downloads.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Extended the dispute evidence submission window from 4 to 9 days, giving merchants extra time to gather the necessary documents and give themselves the best chance of a successful outcome.\n*   Enabled console access for disabled merchants to maintain their ability to view reports and handle disputes even after they’ve stopped processing with Tilled.\n*   Removed the \"Products and Services\" field from the hosted merchant application.\n*   Added descriptive text to the \"Average Transaction Amount\" field in the hosted merchant application.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Updated documentation requirement when submitting dispute evidence through Tilled’s console.\n*   Removed three fields from the hosted merchant application: ‘Number of Employees’, ‘Country Where Products and Services are Offered’, ‘Company Registration Number’.\n*   Fixed an issue where bank account withdrawals related to overdraft funding were not showing up in the merchant’s list of payouts.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Merchants are now required to provide a voided check or bank letter before submitting their merchant application when manually entering bank details instead of using Plaid.\n*   Improved warning messages in the Pricing Template creation flow.\n*   Exposed missing and required fields in the ‘Submit Application’ screen of the hosted merchant application.\n*   Updated the stepper in the hosted merchant application to support a nested page design.\n*   Fixed an issue causing users to land in the middle or bottom of the page when navigating to the next step in the hosted merchant application.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Card Account Updater",
+    "content": "Partners now can choose to enable Card Account Updater for their merchants. Card Account Updater helps reduce declined payments for card-on-file transactions by automatically updating payment information for expired and replaced credit cards. [Learn more about Card Account Updater >](https://tilledpartners.zendesk.com/hc/en-us/articles/18514405518740-Card-Account-Updater)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Exposed a merchant's CVV and AVS configurations in the Partner and Merchant Consoles.\n*   Updated the hosted payments page to offer ApplePay as an option if the merchant selected ‘card’ as an accepted payment method.\n*   Automated changes to onboarding statuses for partners [testing manual bank verification in Sandbox](https://docs.tilled.com/docs/testing/testing/#testing-plaid-bank-account-verification).",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Multi-Account",
+    "content": "Our multi-account functionality empowers merchant users to seamlessly manage multiple accounts using a single set of login credentials. Merchants can toggle between existing accounts and in-progress applications in the merchant console. We promise, this is going to make your multi-location merchants very happy. [Start leveraging multi-account >](https://tilledpartners.zendesk.com/hc/en-us/articles/18165386549908-Multi-account-overview)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Global User Email Preferences",
+    "content": "Partners can set the default state of email notifications across their entire merchant portfolio. This feature provides a streamlined approach to managing communications on a larger scale. Despite these default settings, individual users within a merchant's account retain the autonomy to adjust their personal email settings. This ensures that the specific needs and preferences of each user are respected and met. [Manage your merchants default email preferences >](https://tilledpartners.zendesk.com/hc/en-us/articles/17276783989012-Manage-the-default-email-notification-preferences-for-your-merchants)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Individual User Email Preferences",
+    "content": "Individual users now have the ability to customize their email preferences, ensuring they receive only the emails that are relevant to them. This feature empowers users to stay informed about the notifications they care about while avoiding unnecessary clutter in their inbox. [Manage your email preferences >](https://tilledpartners.zendesk.com/hc/en-us/articles/17276834860692-Manage-your-personal-email-notification-preferences)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Archive Pricing Templates",
+    "content": "Partners now have the ability to archive pricing templates that are no longer actively associated with a merchant. This enables partners to:\n\n*   **Reduce clutter:** Archiving unused templates declutters the workspace, making it easier for partners to navigate and manage current, active pricing templates. This streamlined view aids in quicker decision-making and reduces the chance of selecting outdated or irrelevant templates.\n*   **Improve efficiency:** By keeping only relevant templates active, partners can manage their pricing strategies more efficiently, reducing the time spent scrolling through outdated or unused templates.\n*   **Retain a historical record:** Archived templates are not deleted but kept as historical records. This allows partners to revisit and analyze past pricing strategies for insights, which can inform future pricing decisions and strategies.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Partners can now leverage Plaid when submitting their SaaS merchant application through the partner console.\n*   The Partner Console will now remain on the 'Successfully Submitted' screen in the Partner Application until the account status is updated to 'certified' by the Integrations team.\n*   Fixed an issue where Amex discount fees were being displayed incorrectly for merchants on Paysafe Billing. There were no issues with the actual amount billed.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Dispute Management",
+    "content": "Disputes just became one less thing to think about:\n\n*   **See everything in one place:** Easily track dispute progress from the [Disputes tab](https://app.tilled.com/disputes), where you can access detailed payment histories and relevant case information for comprehensive visibility into each dispute.\n*   **Respond to disputes:** Our Dispute Response Form streamlines the process of responding to disputes. It enables you and your merchants to avoid lengthy email exchanges and securely submit evidence directly through the Tilled console, making the resolution process more efficient and user-friendly.\n*   **Get notified via email:** Stay up-to-date with every development in the dispute resolution process. Our email notifications are designed to prompt swift action and enable faster resolution, ensuring you and your merchants never miss a crucial update.\n*   **Analyze dispute history:** Utilize our downloadable Disputes Report to effectively review and analyze disputes. This tool provides a detailed breakdown of each case, allowing for a deeper understanding and better management of disputes.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Plaid in the Hosted Merchant Application",
+    "content": "Plaid is now integrated into the Tilled hosted merchant application, offering the quickest method for merchants to authenticate their bank accounts and prepare for immediate payouts. When Plaid is enabled for a partner, merchants have the option to either connect their bank account via Plaid or enter their bank details manually.\n\nGet in touch with integrations@tilled.com to learn more about enabling Plaid for your merchant portfolio. Please note that Plaid is not currently available through our API.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Outbound Transfers in the Console",
+    "content": "Partners and merchants can now view [outbound transfers](https://docs.tilled.com/api/#tag/Outbound-Transfers) in the console. Merchants can also create new outbound transfers from the Payments page, with the added ability to cancel ‘pending’ outbound transfers.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "ACH Return Improvements",
+    "content": "We’ve made numerous improvements to ACH Returns in order to provide partners and merchants with enhanced tracking, clearer communication, and more accurate debugging capabilities:\n\n*   Added a new ‘failed\\_at’ timestamp in the API to help you and your merchants accurately track when an ACH payment was returned.\n*   Updated the payment timeline in the Payment Details page to include the new ‘failed\\_at’ timestamp, along with improved, clearer descriptions.\n*   Updated the payment status for returned ACH payments from ‘failed’ to ‘returned’ to distinguish between different types of payment issues.\n*   Renamed “charge failure refund” to “direct debit return” in the consoles for clarity.\n*   Fixed the logic in the ‘Related Activity’ section to expose the payout ID for both the charge and return, making reconciliation easier.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Updated the support footer in transactional emails to include a link to the help center and a support email address.\n*   Exposed the merchant’s [billing owner](https://tilledpartners.zendesk.com/hc/en-us/articles/14767823657236-Merchant-billing-overview) in the Partner and Merchant Consoles.\n*   Added the account name and account ID to the email footer for all dispute and user invitation emails.\n*   Added a logout button to the hosted merchant application.\n*   Updated the downloadable report descriptions for consistency and clarity.\n*   Updated the Payout Details page to display transaction-level fee details.\n*   Moved the line item description in the hosted payment page under the line item name, replacing its previous display via tooltip.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Outbound Transfers API",
+    "content": "Outbound Transfers enable merchants to send funds from their bank account to a customer's bank account. Use cases include:\n\n*   **Security deposit returns in property management:** Property management companies can utilize Outbound Transfers to return security deposits to tenants upon their move-out, ensuring a quick and seamless transaction process.\n*   **Refunds and reimbursements:** Outbound Transfers can be used to reimburse expenses, such as in service-based industries or to the merchant’s employees.\n*   **Payroll and vendor payments:** Businesses can leverage this feature to distribute payroll to employees or make payments to vendors and contractors, streamlining the disbursement process.\n*   **Insurance claim payouts:** Insurance companies can use Outbound Transfers to disburse claim settlements directly to policyholders' bank accounts, enhancing the speed and efficiency of the claims process.\n\n[Check out our Outbound Transfers API >](https://docs.tilled.com/api/#tag/Outbound-Transfers)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Update Billing and Payout Schedules",
+    "content": "Partners can now update billing and payout schedules for merchants on [Flex Billing](https://tilledpartners.zendesk.com/hc/en-us/articles/14767823657236-Merchant-billing-overview) directly through the console. You can select between daily, weekly, and monthly billing and payout frequencies. If weekly or monthly are selected, you will be prompted to select an anchor date. [Update billing and payout frequency >](https://tilledpartners.zendesk.com/hc/en-us/articles/15787856382484-Update-billing-and-payout-frequency)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Updated the main navigation in the Partner and Merchant Consoles to make 'Payouts' and 'Reports' primary tabs.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "White-Labeled Transactional Emails",
+    "content": "We’re all about letting your brand shine. Partners' white-label settings now extend to transactional emails sent to merchants. These emails will be sent from the paymentsonline.io domain, the same domain currently used to log into the white-labeled console. [Manage and preview your white-label configurations >](https://app.tilled.com/settings)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "White-Label Enhancements",
+    "content": "The white-label setup process just became even more delightful. Partners can now easily preview the white-labeled merchant console and transactional emails directly from their white-label settings. [Preview white-label configurations >](https://tilledpartners.zendesk.com/hc/en-us/articles/15369907926036-Preview-white-label-configurations)\n\nAdditionally, we've extended the option for partners to add a custom support phone number and email address. This personalized contact information will be displayed in the Support Drawer of the merchant console. If custom contact details are not provided, Tilled's contact information will be shown by default. [Configure white-label settings >](https://tilledpartners.zendesk.com/hc/en-us/articles/15369552739604-Configure-white-label-settings)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Merchant's Processing Details",
+    "content": "A merchant’s processing details are now exposed in both the partner and merchant consoles. This includes key information related to billing and payout frequency, funding holds, bank account information, and more. [View processing details >](https://tilledpartners.zendesk.com/hc/en-us/articles/15234831471380-Merchant-processing-details)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Partner and Merchant Help Centers",
+    "content": "We've given our in-app FAQ page a face lift with our newly launched Zendesk-hosted help centers, designed to enhance the support experience by replacing the in-app FAQ page. Partners now have exclusive access to a [Tilled-branded help center](https://tilledpartners.zendesk.com/hc/en-us), which offers resources specifically tailored to their needs. In contrast, merchants can utilize a separate, [merchant-specific help center](https://paymentsonline.zendesk.com/hc/en-us) featuring generic branding. Both help centers are readily accessible from the console – partners have the privilege of accessing both help centers, while merchants are limited to their dedicated help center.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Document Upload in the Partner Application",
+    "content": "Partners now have the ability to upload underwriting documents directly within the Partner Application. By enabling the upload of key documents like W-9 forms and voided checks, partners can expedite the verification process, particularly for bank account verification for commission purposes. As of now, the Document Upload is an optional step in the Partner Application process.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Exposed ACH return reasons in the API and consoles when an ACH payment fails.\n*   Enabled developers to simulate ACH returns in Sandbox.\n*   Began automatically activating USD card pricing templates for partners on Tilled Billing.\n*   Enabled partners to complete and submit the Merchant Application for their SaaS account directly from the Partner Console.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Auth Links API",
+    "content": "Auth Links, also known as “magic links”, enable partners to offer password-less authentication and customized redirection. This feature enhances the ease of integration for developers and improves the user experience by allowing direct, tailored access to various functionalities within Tilled.\n\n**Passwordless Authentication**  \nOne of the key advantages of Auth Links is passwordless authentication. Users can securely log into Tilled without the need to remember or enter a password. This feature is particularly valuable in mobile applications or scenarios where entering a password is inconvenient or challenging. An example use case is forwarding a merchant directly to the merchant application from a partner's application, enhancing user experience and efficiency.\n\n**URL Redirect**  \nDevelopers have the ability to specify the exact landing page for a user with the redirect\\_url property. At a basic level, this means a developer could directly send a merchant or partner user to a specific page, like the reports page, by including a redirect URL such as /reports. The feature also allows for more complex implementations, like adding additional parameters to set a specific date range or merchant, offering a highly tailored user experience. This level of customization and precision is particularly useful for creating a seamless and intuitive user journey.\n\nReady to play with magic? [Check out our Auth Links API >](https://docs.tilled.com/api/#tag/Auth-Links)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Hosted Checkout",
+    "content": "Hosted Checkout enables partners and merchants to start collecting payments faster. Tilled’s Hosted Checkout offering consists of two solutions: Checkout Sessions API and Payment Links. Both solutions leverage our hosted payment page, enabling you to skip the complex and time-consuming process of building and maintaining your own hosted payment page.\n\n**Checkout Sessions API**  \nThe Checkout Sessions API is a low-code option for partners to generate a checkout session URL, which can be used to redirect customers to a hosted payment page. The Checkout Sessions API supports:\n\n*   **One-time payments:** The payment form supports one-time payments.\n*   **Mobile optimization:** The payment form is optimized for mobile devices.\n*   **Multiple line items:** You can add multiple line items to the payment form.\n*   **Payment method options:** The payment form allows customers to select payment method options.\n*   **Customer association:** You can associate an existing customer with the payment or create a new customer.\n*   **Metadata association:** You can associate metadata with the payment.\n*   **Redirect customization:** You can customize the redirection settings to redirect users back to your software prior to and upon payment completion.\n*   **White-labeling:** Partner brand colors are automatically applied to the hosted payment page.\n\n[Check out our API docs (no pun intended) >](https://docs.tilled.com/docs/payments/hosted-checkout)\n\n**Payment Links**  \nPayment links are a no-code option for merchants to instantly generate unique one-time payment links through the Tilled console. These links can be easily shared with customers, facilitating quick and hassle-free payment transactions.\n\n*   **One-time payments:** The payment form supports one-time payments.\n*   **Mobile optimization:** The payment form is optimized for mobile devices.\n*   **Payment method options:** The payment form allows customers to select payment method options.\n*   **White-labeling:** Partner white-label settings are automatically applied to the hosted payment page.\n\n[Create a payment link >](https://tilledpartners.zendesk.com/hc/en-us/articles/14767574398484-Create-a-payment-link)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Submit Dispute Evidence",
+    "content": "Partners now have the ability to submit dispute evidence through our API, utilizing the [Disputes endpoint](https://docs.tilled.com/api/#tag/Disputes/operation/CreateDisputeEvidence). With this API integration, partners can now develop and customize your merchants’ dispute management experience.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Embedded digital signatures into the partner application, eliminating the need for DocuSign signatures.\n*   Enabled users to filter payments by charge amount.\n*   Exposed the card brand on the Payment Details page.\n*   Added metadata to all downloadable reports.\n*   Added ‘total fee amount’ to the Payments CSV report.\n*   Added ‘payment intent ID’ and ‘charge amount captured’ to the Merchant Fees CSV report.\n*   Fixed an issue where customer details were not appearing on the Payment Details page when using the Checkout Sessions API.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Flex Billing for Merchants on Interchange+ Pricing",
+    "content": "Merchants on interchange+ pricing can now enjoy the advantages of Flex Billing, including:\n\n*   **Faster funding:** The standard payout speed is T+0, as opposed to T+1 with Processor Billing.\n*   **Real-time fee data:** Access detailed fee information in real-time. Note that interchange costs and pass-through fees, which are sourced directly from card brands, are exceptions.\n*   **Instant activation of pricing templates:** New pricing templates are activated immediately, eliminating the usual 3-5 business day wait. This means you and your merchants can start the merchant application process without delay.\n\n[Learn more about the differences in billing providers >](https://tilledpartners.zendesk.com/hc/en-us/articles/14767823657236-Merchant-billing-overview)",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Added a currency filter to the main dashboard.\n*   Added an application status filter to the Merchants page in the partner console.\n*   Added a [monthly minimum fee](https://tilledpartners.zendesk.com/hc/en-us/articles/14768036733460-Fee-types-and-definitions) to the Pricing Template form in the partner console.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Partner and Merchant Dashboards",
+    "content": "The partner and merchant dashboards have been rebuilt to include more robust insights and filtering capabilities. All users can now:\n\n*   **Toggle between gross and net processing volume:** Users can switch their view between gross (total transaction volume without deductions) and net (volume after deductions like refunds, chargebacks, fees) processing volumes. This feature allows for a more comprehensive understanding of financial performance.\n*   **View the average transaction amount of merchants:** This metric provides insights into the typical value of transactions processed by a merchant.\n*   **View the transaction success rate:** Indicates the percentage of transactions that are successfully processed, which is vital for understanding operational efficiency.\n*   **View the dispute rate:** Shows the frequency of disputes in relation to successful transactions, important for assessing risk and customer satisfaction.\n*   **View a transaction summary:** Offers a consolidated view of transaction-related data, providing a quick overview of key metrics.\n*   **Take advantage of a new date picker:** The improved date picker makes it easier to select a predefined time period. It’s the little things, right?\n\nIn addition, partners can:\n\n*   **View merchant count by status:** This feature allows partners to see both the number of active merchants and the count of new merchant applications, providing insights into business growth and partner engagement.\n*   **Filter by merchant:** Partners can filter data for individual merchants. This is particularly useful for managing and analyzing data across multiple merchants, allowing for targeted analysis and support.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Processing Summary Report",
+    "content": "The Processing Summary report is now available for download in the partner and merchant consoles, as well as via the [Report Run endpoint](https://docs.tilled.com/api/#tag/ReportRuns/operation/CreateReportRun). The Processing Summary report provides a comprehensive overview of a merchant's processing activities, broken down by transaction type (charges, refunds, disputes, etc.).\n\nThe report is particularly useful for partners to compare transaction processing among their associated merchants. This comparison can help partners to:\n\n*   **Identify trends and patterns across different merchants:** Understanding variances and similarities across merchants can be instrumental in strategic planning and support.\n*   **Understand the performance and operational efficiency of each merchant:** Detailed insights into each merchant's transaction processing shed light on efficiency and areas for improvement.\n*   **Provide targeted support or advice based on specific transaction types or volumes:** Customized advice can be given, focusing on particular aspects of a merchant's transaction processing, be it type or volume.\n\nFor merchants, this report is valuable in understanding their overall processing makeup. This means it helps them to:\n\n*   **Get a clear picture of their transactional activities, segmented by type:** Merchants can see a detailed breakdown of their transactions, aiding in better financial management.\n*   **Identify areas where they might be incurring higher fees:** Understanding the source of higher fees can guide in making cost-effective changes.\n*   **Understand customer behavior through transaction patterns:** This insight can inform business strategies and customer service improvements, enhancing customer experience and business growth.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Merchant Fees Report",
+    "content": "The Merchant Fees report is now available for download in the partner and merchant consoles, as well as through our API using the [Report Run endpoint](https://docs.tilled.com/api/#tag/ReportRuns/operation/CreateReport Run). This report provides a detailed view of fees incurred by merchants, making it particularly beneficial for merchants seeking an in-depth understanding of their processing costs.\n\nThe report's emphasis on the original transaction date makes it especially relevant for merchants adhering to the accrual accounting method.",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "Update Merchant Pricing Prior to Application Submission",
+    "content": "The process of creating merchant applications now allows for more flexibility. Partners can create an application without immediately deciding on the pricing. This is most useful for partners that want to initiate the merchant application process, but are still negotiating with merchants on pricing. Applications will remain in a ‘requires pricing’ status until the pricing has been introduced.\n\nThis feature is accessible exclusively through our API using the [Update Account Capability endpoint](https://docs.tilled.com/api/#tag/Accounts/operation/UpdateAccountCapability).",
+    "referrerUrl": ""
+  },
+  {
+    "url": "https://www.tilled.com/product-journal",
+    "title": "The Little Things",
+    "content": "*   Exposed transaction-level fee details for merchants on Paysafe Billing.\n*   Added a Summary table to the Payout Details page which summarizes the transactions included in a single payout.\n*   Added a Fees tab to the Payout Details page which aggregates fees that were netted out of a merchant’s payout.\n*   Fixed several bugs which were resulting in discrepancies when reconciling payouts.",
+    "referrerUrl": ""
+  }
+]
